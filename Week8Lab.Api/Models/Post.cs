@@ -11,5 +11,6 @@ namespace Week8Lab.Api.Models
             public string Name { get; set; }
             public string Title { get; set; }
             public DateTime PostTime { get; set; }
+            public string Text { get; set; }
     }
 }

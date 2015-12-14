@@ -6,7 +6,7 @@ using System.Web;
 
 namespace Week8Lab.Api.Models
 {
-    public class PostContext : DbContext
+    public class UserContext : DbContext
     {
         // You can add custom code to this file. Changes will not be overwritten.
         // 
@@ -15,11 +15,9 @@ namespace Week8Lab.Api.Models
         // For more information refer to the documentation:
         // http://msdn.microsoft.com/en-us/data/jj591621.aspx
     
-        public PostContext() : base("name=PostContext")
+        public UserContext() : base("name=UserContext")
         {
         }
-
-        public System.Data.Entity.DbSet<Week8Lab.Api.Models.Post> Posts { get; set; }
 
         public System.Data.Entity.DbSet<Week8Lab.Api.Models.user> users { get; set; }
     }

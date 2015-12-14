@@ -26,6 +26,7 @@ namespace Week8Lab.Api.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
-        }
+
+    }
     }
 }
